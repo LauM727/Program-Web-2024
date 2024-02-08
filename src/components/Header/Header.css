@@ -1,0 +1,131 @@
+.Navigation {
+    display: flex;
+    position: fixed;
+    top: 0;
+}
+
+#Home, #TVShows, #Movies, #New, #List, #Languages {
+    margin-top: 28px;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    transition: transform .4s;
+    cursor: pointer;
+}
+
+#Home:hover, #TVShows:hover, #Movies:hover, #New:hover, #List:hover, #Languages:hover {
+    transform: scale(1.1);
+}
+
+.Explore-Right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 20px;
+    align-items: center;
+    right: 20px;
+}
+
+.Explore-Right button {
+    margin-bottom: 10px;
+}
+
+#Search {
+    margin-left: 20px;
+    width: 25px;
+    height: 25px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    background-image: url('./lupa.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+#Kids {
+    margin-left: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    transition: transform .4s;
+}
+
+
+#Kids:hover{
+    transform: scale(1.1);
+}
+
+#Bell{
+    width: 25px;
+    height: 25px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    background-image: url('./campana.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.Profile-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#Profile{
+    width: 35px;
+    height: 35px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    background-image: url('./Lucibb.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px  ;
+    margin-left: 20px;
+}
+
+.Arrow-image{
+    width: 25px;
+    height: 25px;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+    border: none;
+    background-image: url('./arrow.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.Nav{
+    background-color: black;
+    position: absolute;
+    width:100px;
+    height: 100px;
+    top: 90px;
+    display: none; /* UNBLOCK*/
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+#Logo {
+    display:flex;
+    flex-direction: row;
+    width: 100px;
+    height:auto;
+    margin: 10px;
+}
+
+
