@@ -1,108 +1,113 @@
 .Navigation {
+    width: 95%;
+    padding: 0px 25px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
     position: fixed;
-    top: 0;
-}
-
-#Home, #TVShows, #Movies, #New, #List, #Languages {
-    margin-top: 28px;
-    background-color: rgba(0, 0, 0, 0);
-    border-color: rgba(0, 0, 0, 0);
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 12px;
-    transition: transform .4s;
-    cursor: pointer;
-}
-
-#Home:hover, #TVShows:hover, #Movies:hover, #New:hover, #List:hover, #Languages:hover {
-    transform: scale(1.1);
-}
-
-.Explore-Right {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    padding: 20px;
-    align-items: center;
-    right: 20px;
-}
-
-.Explore-Right button {
-    margin-bottom: 10px;
-}
-
-#Search {
-    margin-left: 20px;
-    width: 25px;
-    height: 25px;
-    background-color: rgba(0, 0, 0, 0);
-    border: none;
-    background-image: url('./lupa.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    cursor: pointer;
-}
-
-#Kids {
-    margin-left: 20px;
-    background-color: rgba(0, 0, 0, 0);
-    border: none;
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 12px;
-    cursor: pointer;
-    transition: transform .4s;
-}
+    top: 0px;
+    z-index: 999;
+    background: linear-gradient(to top, transparent 0%,rgb(0,0,0,0.3) 20%);
 
 
-#Kids:hover{
-    transform: scale(1.1);
-}
+    .Explore-Left{
+        display: flex;
+        align-items: center;
 
-#Bell{
-    width: 25px;
-    height: 25px;
-    background-color: rgba(0, 0, 0, 0);
-    border: none;
-    background-image: url('./campana.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    margin-left: 20px;
-}
+        img{
+            height: 60px;
+            margin-right: 20px;
+        }
 
-.Profile-container {
-    display: flex;
-    align-items: center;
-    position: relative;
-}
+        #Home, #TVShows, #Movies, #New, #List, #Languages {
+            background-color: rgba(0, 0, 0, 0);
+            border-color: rgba(0, 0, 0, 0);
+            font-family: Helvetica;
+            font-weight: bold;
+            font-size: 12px;
+            transition: transform .4s;
+            cursor: pointer;
+        }
 
-#Profile{
-    width: 35px;
-    height: 35px;
-    background-color: rgba(0, 0, 0, 0);
-    border: none;
-    background-image: url('./Lucibb.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    border-radius: 5px;
-    padding: 5px  ;
-    margin-left: 20px;
-}
+        #Home:hover, #TVShows:hover, #Movies:hover, #New:hover, #List:hover, #Languages:hover {
+            transform: scale(1.1);
+        }
 
-.Arrow-image{
-    width: 25px;
-    height: 25px;
-    background-color: rgba(0, 0, 0, 0);
-    border-color: rgba(0, 0, 0, 0);
-    border: none;
-    background-image: url('./arrow.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    margin-left: 10px;
+    }
+
+    .Explore-Right{
+        display: flex;
+        align-items: center;
+
+        #Search {
+            margin-left: 20px;
+            width: 25px;
+            height: 25px;
+            background-color: rgba(0, 0, 0, 0);
+            border: none;
+            background-image: url('../assets/img/lupa.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            cursor: pointer;
+        }
+
+        #Kids {
+            margin-left: 20px;
+            background-color: rgba(0, 0, 0, 0);
+            border: none;
+            font-family: Helvetica;
+            font-weight: bold;
+            font-size: 12px;
+            cursor: pointer;
+            transition: transform .4s;
+        }
+
+
+        #Kids:hover{
+            transform: scale(1.1);
+        }
+
+        #Bell{
+            width: 25px;
+            height: 25px;
+            background-color: rgba(0, 0, 0, 0);
+            border: none;
+            background-image: url('../assets/img/campana.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            cursor: pointer;
+            margin-left: 20px;
+        }
+
+        #Profile{
+            width: 35px;
+            height: 35px;
+            background-color: rgba(0, 0, 0, 0);
+            border: none;
+            background-image: url('../assets/img/Lucibb.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            cursor: pointer;
+            border-radius: 5px;
+            padding: 5px  ;
+            margin-left: 20px;
+        }
+
+        .Arrow-image{
+            width: 25px;
+            height: 25px;
+            background-color: rgba(0, 0, 0, 0);
+            border-color: rgba(0, 0, 0, 0);
+            border: none;
+            background-image: url('../assets/img/arrow.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+    }
+
 }
 .Nav{
     background-color: black;
@@ -119,13 +124,4 @@ ul{
     flex-direction: column;
     gap: 2px;
 }
-
-#Logo {
-    display:flex;
-    flex-direction: row;
-    width: 100px;
-    height:auto;
-    margin: 10px;
-}
-
 

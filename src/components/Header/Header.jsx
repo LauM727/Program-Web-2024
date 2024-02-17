@@ -1,16 +1,12 @@
 import './Header.css'
-import'./lupa.png'
-
-const button=document.querySelector('.Arrow-image')
-const nav=document.querySelector('Arrow-nav')
-
 
 export function Header(){
+
     return(
         <>
         <section className="Navigation">
-            <img Id="Logo" src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"></img>
-            <div Id="Explore-Left">
+            <div className="Explore-Left">
+                <img Id="Logo" src="https://files.cults3d.com/uploaders/27512146/illustration-file/4cd53c3b-bd3c-4cf1-999e-e9160186fbd0/Netflix-logo.png"></img>
                 <button Id="Home">Home</button>
                 <button Id="TVShows">TV Shows</button>
                 <button Id="Movies">Movies</button>
@@ -19,8 +15,7 @@ export function Header(){
                 <button Id="Languages">Browse by Languages</button>
             </div>
 
-        </section>
-        <section className="Explore-Right">
+            <div className="Explore-Right">
                 <button Id="Search"></button>
                 <button Id="Kids">Kids</button>
                 <button Id="Bell"></button>
@@ -37,8 +32,9 @@ export function Header(){
                     </ul>
                 </nav>
                 </div>
+            </div>
 
-            </section>
+        </section>
         </>
     )
 }
