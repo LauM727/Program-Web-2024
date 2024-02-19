@@ -1,0 +1,22 @@
+.seriesBox-container {
+    padding: 0px 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow-x: scroll;
+    gap:2%;
+    overflow-y: hidden; /* Oculta la barra de desplazamiento vertical */
+    scrollbar-width: none; /* Oculta la barra de desplazamiento de Firefox */
+    -ms-overflow-style: none;
+}
+
+.seriesBox-container::-webkit-scrollbar {
+    display: none; /* Oculta la barra de desplazamiento de WebKit (Chrome, Safari, etc.) */
+}
+
+.seriesBox-container img{
+    height: 100%;
+    border-radius: 5px;
+    width: 300px;
+}
+

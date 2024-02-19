@@ -1,15 +1,16 @@
-import { seriesData } from "../../Data/seriesdata"
-import { SeriesBox } from "./Series/SeriesBox"
+import { SeriesData } from '../../Data/Seriesdata'
+import { SeriesBox } from '../Series/SeriesBox'
 
-const seriesdata = seriesData
+const data = SeriesData
 
-export function Body(){
-    return(
-        <main id="main">
-            <SeriesBox tittle="Animated"
-            series={seriesdata}
-            ></SeriesBox>
+export function Body () {
+  return (
+    <main id='main'>
+      <SeriesBox
+        tittle='Animated'
+        series={data}
+      />
 
-        </main>
-    )
+    </main>
+  )
 }
