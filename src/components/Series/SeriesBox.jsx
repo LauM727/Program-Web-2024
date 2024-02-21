@@ -4,7 +4,7 @@ import './SeriesBox.css'
 export function SeriesBox ({ series, id }) {
   return (
     <>
-      <h3>Animation</h3>
+      <h3>Series</h3>
 
       <div className='seriesBox-container'>
         {

@@ -1,4 +1,4 @@
-.seriesBox-container {
+.animeBox-container {
     padding: 0px 25px;
     display: flex;
     flex-direction: row;
@@ -10,11 +10,11 @@
     -ms-overflow-style: none;
 }
 
-.seriesBox-container::-webkit-scrollbar {
+.animeBox-container::-webkit-scrollbar {
     display: none;
 }
 
-.seriesBox-container img{
+.animeBox-container img{
     height: 100%;
     border-radius: 5px;
     width: 300px;

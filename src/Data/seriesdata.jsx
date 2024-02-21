@@ -1,8 +1,9 @@
 export const SeriesData = [
   {
     id: crypto.randomUUID(),
-    url: 'https://occ-0-2980-3933.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABZzOnRvjTYWu4fLtZdmRKct8vRI4alQ3d_Yv-EWxaNXPtv-6Wt_V8IswQ2_7cLpShSFX3OXErwU25E_XyqF9kEgxpqUlHW7Iq412R3KfcwrfzwQTn2CEQOtmwePcUi-OE4rz.jpg?r=6ef'
+    url: 'https://occ-0-2980-3933.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABZzOnRvjTYWu4fLtZdmRKct8vRI4alQ3d_Yv-EWxaNXPtv-6Wt_V8IswQ2_7cLpShSFX3OXErwU25E_XyqF9kEgxpqUlHW7Iq412R3KfcwrfzwQTn2CEQOtmwePcUi-OE4rz.jpg?r=6ef',
     // title: "Como entrenar a tu dragon",
+    src: '../components/assets/video/Dragons Race to the Edge Trailer.mp4'
   },
   {
     id: crypto.randomUUID(),
@@ -22,6 +23,7 @@ export const SeriesData = [
   {
     id: crypto.randomUUID(),
     url: 'https://occ-0-4653-3933.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABQiuYm1BkE85Y7zmzY_QQcARCOl5tlDCz7jHqdFU594DIA2WJN-wF5bBJjiVfUZkM5wfW8JUZUV0-A25paQUhU9uHA0x6oMFj0zVhYDPAIrk9CJd_TOOq6Gk9rUsSvqMM9UASyPRYwguPC-7JRcZmePxZXoPIZZtoig.webp?r=2c3'
+
     // title: "Un show mas",
   },
   {
