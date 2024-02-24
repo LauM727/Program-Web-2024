@@ -5,6 +5,7 @@ export function Header () {
     <>
       <section className='Navigation'>
         <div className='Explore-Left'>
+          <img id='Logo2' src='https://cdnlogo.com/logos/n/75/netflix.svg' />
           <img id='Logo' src='https://files.cults3d.com/uploaders/27512146/illustration-file/4cd53c3b-bd3c-4cf1-999e-e9160186fbd0/Netflix-logo.png' />
           <button id='Home'>Home</button>
           <button id='TVShows'>TV Shows</button>
