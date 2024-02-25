@@ -70,9 +70,9 @@ export function Header () {
             {
             showArrowMenu && (
               <ul className='options'>
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
+                <li>Profile</li>
+                <li>Settings</li>
+                <li>Log out</li>
               </ul>
             )
           }
