@@ -1,3 +1,4 @@
+/*MOBILE*/
 @media (min-width: 375px) and (max-width: 1024px){
 .animeBox-container {
     padding: 0px 25px;
@@ -28,6 +29,7 @@ h3{
 }
 }
 
+/*PC*/
 
 @media (min-width: 1025px){
     .animeBox-container {

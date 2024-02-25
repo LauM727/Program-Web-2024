@@ -1,3 +1,4 @@
+/*MOBILE*/
 @media (min-width: 375px) and (max-width: 1024px){
 .NavBar{
 
@@ -70,7 +71,7 @@
     }
 }
 
-
+/*PC*/
 @media (min-width: 1025px){
     .NavBar{
         display: none;

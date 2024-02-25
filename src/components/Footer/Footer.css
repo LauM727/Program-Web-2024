@@ -1,0 +1,123 @@
+/*MOBILE*/
+@media (min-width: 375px) and (max-width: 1024px){
+  .button-container {
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+  }
+
+  .facebook, .instagram, .twitter, .youtube {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .facebook {
+    background-image: url('../assets/img/facebook.png');
+  }
+
+  .instagram {
+    background-image: url('../assets/img/instagram.png');
+  }
+
+  .twitter {
+    background-image: url('../assets/img/gorjeo.png');
+  }
+
+  .youtube {
+    width: 80px;
+    background-image: url('../assets/img/youtube.png');
+  }
+
+}
+.container {
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 150px;
+  font-size: 20px;
+}
+
+.Colum1, .Colum2, .Colum3 {
+  flex: 1;
+  margin: 0 60px;
+}
+
+.Colum1 a, .Colum2 a, .Colum3 a {
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+/*PC*/
+@media(min-width: 1025px){
+    .button-container{
+        padding: 0px 60px;
+        .facebook{
+                margin-left: 20px;
+                width: 25px;
+                height: 25px;
+                background-color: rgba(0, 0, 0, 0);
+                border: none;
+                background-image: url('../assets/img/facebook.png');
+                background-size: cover;
+                background-repeat: no-repeat;
+                cursor: pointer;
+        }
+        .instagram{
+            margin-left: 20px;
+            width: 25px;
+            height: 25px;
+            background-color: rgba(0, 0, 0, 0);
+            border: none;
+            background-image: url('../assets/img/instagram.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            cursor: pointer;
+        }
+        .twitter{
+            margin-left: 20px;
+            width: 25px;
+            height: 25px;
+            background-color: rgba(0, 0, 0, 0);
+            border: none;
+            background-image: url('../assets/img/gorjeo.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            cursor: pointer;
+        }
+        .youtube{
+            margin-left: 20px;
+            width: 40px;
+            height: 25px;
+            background-color: rgba(0, 0, 0, 0);
+            border: none;
+            background-image: url('../assets/img/youtube.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            cursor: pointer;
+        }
+        }
+          .container {
+            padding: 15px 60px;
+            display: flex;
+            justify-content: space-between;
+          }
+
+          .Colum1, .Colum2, .Colum3 {
+            flex: 1;
+            margin: 0 10px;
+          }
+
+          .Colum1 a, .Colum2 a, .Colum3 a {
+            display: block;
+            margin-bottom: 10px;
+          }
+}

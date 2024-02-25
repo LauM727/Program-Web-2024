@@ -1,39 +1,39 @@
 export const AnimeData = [
   {
     id: crypto.randomUUID(),
-    url: 'https://occ-0-5957-3933.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABRSfn6bhhKWz59l0FtXM13W1Dsx_02ni7MmC5kqLdzgI4BVXvrZcFs0dwvu89U2nnOe0GJSdUBMbEXgb2lKmRmXSt_PeSksvSu401QmOab8raXVsIIWcoZzsVSO8x1Vg9n2MLgsVlcRh6An4qQtdoKhVR4H3hxlofIrzKApjKKhEPwxXhmAMaWZk2m-zJP-9TU0oyxZtqaQAnS3uKAlF3T6-vBQvFdSokg.jpg?r=5d9'
-    // title: "Sociedad de la nieve",
+    url: 'https://occ-0-5957-3933.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABSuvLJ1LCwy8uNf6BH9WX0qF1vj-JhlK1MtPaKiCs463EsZ6LSE1b5Jfo5VzmkmFMeXOhvY8Ze3NnwOTeo8epugJHdPY1tAR24A.webp?r=27e'
+    // title: "Demon slayer",
   },
   {
     id: crypto.randomUUID(),
-    url: 'https://occ-0-5957-3933.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABShhZBNAiWH5_wfv7guKPSwmMMqbvTKyiYaXyI6wKnVjZWNj1hN3IMwOgK2rU9pXmCFVnPkJzzLAUlEja4yItxrsa859yJtVFTw.webp?r=abb'
-    // title: "Las rubias",
+    url: 'https://occ-0-5957-3933.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABR-BqJ9TrdWLZtJtIEJ8BiwFHdXLEZ6k4otRRLrZE7twHrrSZADNRXcCop29LK8SJvHRXdlYAkuVctRmQBPaj3XheUO0n8B-z9g.webp?r=f0c'
+    // title: "Call of the night",
   },
   {
     id: crypto.randomUUID(),
-    url: 'https://occ-0-5957-3933.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABawy5cD5S4Lx6KdpoOi2NOol1r-2wL6xNiDuAge5CyK4Sbtzknsmmmoy4QZo9NJTEThtX6sWpLeZHvcuttMZMgAUI2596-Bfszw.webp?r=ee0'
-    // title: "Tren a busan",
+    url: 'https://occ-0-5957-3933.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABT57kUVlb5nte3MAXdhliO7zjiU_7CV7SgqfQwiBH5z71Nqt6gqGeKe1_rxUg3QM52y6ybipfwsyYSqmLnTm9XiLGTektuwHQjQ.webp?r=aed'
+    // title: "One punch man",
   },
   {
     id: crypto.randomUUID(),
-    url: 'https://occ-0-5957-3933.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABZ6BQODLSbep2jRd1hlYFcO7tPteJH4qreMvYxva2BJMFOHtbuLra1-0PPipRArm5AhrYv_9OsxZu-gvWFNiVjbQIxHlZEPNI_0.webp?r=994'
-    // title: "Baby Driver",
+    url: 'https://occ-0-5957-3933.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABfIsA2cjZEvPPq7uoWoJwCC8swFF-oDvhMWSuJOK48nlgQu45tGYrt2dByXzhJp4jH1N8ycYHLs4x90PrKCy8jF9hSKjYDOj38w.webp?r=f78'
+    // title: "InuYasha",
   },
   {
     id: crypto.randomUUID(),
-    url: 'https://occ-0-5957-3933.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABVGfhrYPSeR7Do6zgI-UTSDqrAYhezMUikD3aEtbqCLiYxHJMImxP7R9LolXOjpPsPduxKzeMKfM6TamjaAOk_3G9Ci2_eVqysE.webp?r=5a8'
-    // title: "Jurassic world",
+    url: 'https://occ-0-5957-3933.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABdbeFZmmj_acSrktoVvzBGcS9bcGxryktn4PyrDUW4ftp7-BMXoFqrx9LRTvCzYQw_850WTh4a5f9rGyoiRvNDfuLVPU2HzPYkg.webp?r=ced'
+    // title: "SAO",
   },
   {
     id: crypto.randomUUID(),
-    url: 'https://occ-0-5957-3933.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABS8UhzvZnw11F_B9sNBEBrb3sKcxbboy85SWDBqBFOT6HBnvKD7XLkyK34ijftZS7dzphtHRhGQJY58KBWN74s_oUEMNe4c1XSVfQlg2qivYmG-q8CSPb1vighFaRNuFZjxghsLibX5hYv0FB0IcdACZmlGoohTO0zg.webp?r=e66'
-    // title: "Minions 3",
+    url: 'https://occ-0-5957-3933.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABRTC4_pt0x_SyY6dUeuSd_Hrg6ozq4xgA3PdrcfXKI2wfKsImcWNsk5-QpPyYHi5bBbxSYC8YvL2N8F99O0ZShBBdod9NCwZe5w.webp?r=777'
+    // title:"Naruto",
   },
 
   {
     id: crypto.randomUUID(),
-    url: 'https://occ-0-5957-3933.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABX4KpPbTJ9maq2ZzCYRVyPxUjM63W32R99CLpRNbpocMGICKDk3chwwYdG3YELbyHzCbQpnfmWla4RAnpSCT_23H2LbkLdyPhkA.webp?r=6f2'
-    // title: "Castillo ambulante",
+    url: 'https://occ-0-5957-3933.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABSmgqoUPHCo_nMIwwsCmrb_K_Mzn40xa88QFWWF4G9oIRWBeXWbXK3REHAp-xnLk0rYWtC-ju90VeI_AhlLB9Zf9jtqeR1u9UZ4.webp?r=84e'
+    // title: "Violet",
   }
 
 ]

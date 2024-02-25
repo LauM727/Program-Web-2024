@@ -1,4 +1,4 @@
-/*CELLPHONE*/
+/*MOBILE*/
 @media (min-width: 375px) and (max-width: 1024px){
     .Navigation {
         width: 95%;
@@ -16,6 +16,35 @@
         .Explore-Left{
             display: flex;
             align-items: center;
+
+            button{
+                margin-left: 20px;
+                width: 40px;
+                height: 40px;
+                background-color: rgba(0, 0, 0, 0);
+                border: none;
+                background-image: url('../assets/img/menu.png');
+                background-size: cover;
+            }
+
+              .menu-open {
+                background-image: url('../assets/img/menu.png');
+              }
+
+              .menu-list {
+                position: absolute;
+                top: 40px;
+                left: 0;
+                background-color:black;
+                padding: 10px 40px;
+                border: 1px solid #515151;
+                z-index: 999;
+                font-size: 30px;
+                list-style: none;
+                border-radius: 5px;
+              }
+
+
 
             #Logo2{
                 height: 60px;
@@ -106,7 +135,7 @@
                 display: none;
             }
 
-            .Arrow-image{
+            .Arrow-imagehidden{
                 width: 25px;
                 height: 25px;
                 background-color: rgba(0, 0, 0, 0);
@@ -121,23 +150,10 @@
             }
         }
     }
-    .Nav{
-        background-color: black;
-        position: absolute;
-        width:100px;
-        height: 100px;
-        top: 90px;
-        display: none; /* UNBLOCK*/
-    }
 
-    ul{
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-        gap: 2px;
-    }
 }
 
+/*PC*/
 @media(min-width: 1025px){
 .Navigation {
     width: 100%;
@@ -156,6 +172,10 @@
     .Explore-Left{
         display: flex;
         align-items: center;
+
+        .Hamburger-Menumenu-open{
+            display: none;
+        }
 
         #Logo2{
             display: none;
@@ -185,6 +205,9 @@
     .Explore-Right{
         display: flex;
         align-items: center;
+        position: relative;
+        min-width: 120px;
+    }
 
         #Search {
             margin-left: 20px;
@@ -240,35 +263,39 @@
             margin-left: 20px;
         }
 
-        .Arrow-image{
+        .Arrow-imagearrow-open{
             width: 25px;
             height: 25px;
             background-color: rgba(0, 0, 0, 0);
-            border-color: rgba(0, 0, 0, 0);
             border: none;
             background-image: url('../assets/img/arrow.png');
             background-size: cover;
             background-repeat: no-repeat;
             cursor: pointer;
             margin-left: 10px;
-            margin-right: 45px;
+            margin-right: 40px;
         }
+
+
+        .options {
+            flex-direction: column;
+            position: absolute;
+            left: 0;
+            background-color: black;
+            padding: 5px;
+            list-style: none;
+        }
+
+        .options li {
+            padding: 5px;
+        }
+
+        li:hover {
+            cursor: pointer;
+            background-color: #5a5959ab;
+        }
+
     }
 
 }
-.Nav{
-    background-color: black;
-    position: absolute;
-    width:100px;
-    height: 100px;
-    top: 90px;
-    display: none; /* UNBLOCK*/
-}
 
-ul{
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-}
-}
