@@ -112,9 +112,8 @@
             flex-direction: column;
             top: 50px;
 
-            img{
-                width: 600px;
-                margin-left: 10px;
+            #tittle{
+                width: 800px;
             }
 
             #description{
