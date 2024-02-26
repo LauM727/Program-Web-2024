@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react'
 
-export function Footer(){
-    return(
-        <>
-        <h2>By: Laura Mendieta</h2>
-        </>
-    )
+export function Footer () {
+  return (
+    <>
+      <h2>By: Laura Mendieta</h2>
+    </>
+  )
 }
