@@ -1,0 +1,161 @@
+/*MOBILE*/
+@media (min-width: 375px) and (max-width: 1024px){
+    .Banner {
+        height: 70vh;
+        position: relative;
+        top: 30px;
+        left: 10px;
+        margin-bottom: 350px;
+      }
+
+      .spam {
+        width: 450px;
+        height: 600px;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 60px;
+        margin-left: 55%;
+        border-radius: 5px;
+      }
+
+      .info {
+        width: 35%;
+        position: absolute;
+        left: 90%;
+        top: 360px;
+        transform: translateX(-50%);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        #tittle {
+          width: 600px;
+          margin-bottom: 20px;
+          margin-left: 100px;
+          margin-right: auto;
+        }
+
+        #description {
+          margin: 20px 0px;
+          display: none;
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-left: 310px;
+            gap: 20px;
+        }
+
+        button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        margin: 0 5px;
+        cursor: pointer;
+        transition: transform .4s;
+        width: 150px;
+        }
+
+        button:hover {
+          transform: scale(1.1);
+        }
+
+        #play {
+          background-color: white;
+          color: black;
+        }
+
+        #more-info {
+          font-weight: bold ;
+          background-color: rgb(120, 119, 119);
+        }
+      }
+
+}
+
+
+/*PC*/
+@media (min-width: 1025px){
+    .Banner{
+        height: 70vh;
+        position:relative;
+        top: -10px;
+        left: -10px;
+        margin-bottom: 0px;
+
+
+        img{
+            width: 101.5%;
+            height: 100%;
+            object-fit:cover;
+            margin-top: 60px;
+            left: 0;
+
+        }
+
+        .info{
+            width: 60%;
+            position: absolute;
+            left: 50px;
+            bottom: 90px;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            top: 90px;
+
+            #tittle{
+              width: auto;
+              max-width: 100%;
+              height: auto;
+            }
+
+            #description{
+              width: 100%;
+                margin: 20px 0px;
+                max-height: 2.5em;
+            }
+
+            .buttons{
+                display:flex;
+            }
+
+            button{
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 18px;
+                margin-right: 20px;
+                cursor: pointer;
+                transition: transform .4s;
+            }
+
+            button:hover{
+                transform: scale(1.1);
+            }
+
+            #play{
+                background-color: white;
+                color: black;
+            }
+
+            #more-info{
+                font-weight:bold ;
+                background-color: rgb(120, 119, 119);
+            }
+
+        }
+
+    }
+}

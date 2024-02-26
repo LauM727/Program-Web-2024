@@ -1,0 +1,301 @@
+/*MOBILE*/
+@media (min-width: 375px) and (max-width: 1024px){
+    .Navigation {
+        width: 95%;
+        padding: 30px 25px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 25px;
+        position: fixed;
+        top: 0px;
+        z-index: 999;
+        background: linear-gradient(to top, transparent 0%,rgb(0,0,0,0.3) 20%);
+
+
+        .Explore-Left{
+            display: flex;
+            align-items: center;
+
+            button{
+                margin-left: 20px;
+                width: 40px;
+                height: 40px;
+                background-color: rgba(0, 0, 0, 0);
+                border: none;
+                background-image: url('../assets/img/menu.png');
+                background-size: cover;
+            }
+
+              .menu-open {
+                background-image: url('../assets/img/menu.png');
+              }
+
+              .menu-list {
+                position: absolute;
+                top: 40px;
+                left: 0;
+                background-color:black;
+                padding: 10px 40px;
+                border: 1px solid #515151;
+                z-index: 999;
+                font-size: 30px;
+                list-style: none;
+                border-radius: 5px;
+              }
+
+
+
+            #Logo2{
+                height: 60px;
+                margin-left: 400px;
+                justify-content: center;
+            }
+
+            #Logo{
+                display: none;
+            }
+
+            #Home, #TVShows, #Movies, #New, #List, #Languages {
+                background-color: rgba(0, 0, 0, 0);
+                border-color: rgba(0, 0, 0, 0);
+                font-family: Helvetica;
+                font-weight: bold;
+                font-size: 12px;
+                transition: transform .4s;
+                cursor: pointer;
+                display: none;
+            }
+
+            #Home:hover, #TVShows:hover, #Movies:hover, #New:hover, #List:hover, #Languages:hover {
+                transform: scale(1.1);
+            }
+
+        }
+
+        .Explore-Right{
+            display: flex;
+            align-items: center;
+
+
+            #Search {
+                margin-right: 30px;
+                width: 50px;
+                height: 50px;
+                background-color: rgba(0, 0, 0, 0);
+                border: none;
+                background-image: url('../assets/img/lupa.png');
+                background-size: cover;
+                background-repeat: no-repeat;
+                cursor: pointer;
+            }
+
+            #Kids {
+                margin-left: 20px;
+                background-color: rgba(0, 0, 0, 0);
+                border: none;
+                font-family: Helvetica;
+                font-weight: bold;
+                font-size: 12px;
+                cursor: pointer;
+                transition: transform .4s;
+                display: none;
+            }
+
+
+            #Kids:hover{
+                transform: scale(1.1);
+            }
+
+            #Bell{
+                width: 25px;
+                height: 25px;
+                background-color: rgba(0, 0, 0, 0);
+                border: none;
+                background-image: url('../assets/img/campana.png');
+                background-size: cover;
+                background-repeat: no-repeat;
+                cursor: pointer;
+                margin-left: 20px;
+                display: none;
+            }
+
+            #Profile{
+                width: 50px;
+                height: 50px;
+                background-color: rgba(0, 0, 0, 0);
+                border: none;
+                background-image: url('../assets/img/Lucibb.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                cursor: pointer;
+                border-radius: 5px;
+                padding: 5px  ;
+                margin-left: 20px;
+                display: none;
+            }
+
+            .Arrow-imagearrow-open{
+                width: 25px;
+                height: 25px;
+                background-color: rgba(0, 0, 0, 0);
+                border-color: rgba(0, 0, 0, 0);
+                border: none;
+                background-image: url('../assets/img/arrow.png');
+                background-size: cover;
+                background-repeat: no-repeat;
+                cursor: pointer;
+                margin-left: 10px;
+                display: none;
+            }
+        }
+    }
+
+}
+
+/*PC*/
+@media(min-width: 1025px){
+.Navigation {
+    width: 100%;
+    padding: 0px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+    background-color: rgb(1, 1, 1);
+
+
+    .Explore-Left{
+        display: flex;
+        align-items: center;
+
+        .Hamburger-Menumenu-open{
+            display: none;
+        }
+
+        #Logo2{
+            display: none;
+        }
+
+        #Logo{
+            height: 60px;
+            margin-right: 20px;
+        }
+
+        #Home, #TVShows, #Movies, #New, #List, #Languages {
+            background-color: rgba(0, 0, 0, 0);
+            border-color: rgba(0, 0, 0, 0);
+            font-family: Helvetica;
+            font-weight: bold;
+            font-size: 12px;
+            transition: transform .4s;
+            cursor: pointer;
+        }
+
+        #Home:hover, #TVShows:hover, #Movies:hover, #New:hover, #List:hover, #Languages:hover {
+            transform: scale(1.1);
+        }
+
+    }
+
+    .Explore-Right{
+        display: flex;
+        align-items: center;
+        position: relative;
+        min-width: 120px;
+    }
+
+        #Search {
+            margin-left: 20px;
+            width: 25px;
+            height: 25px;
+            background-color: rgba(0, 0, 0, 0);
+            border: none;
+            background-image: url('../assets/img/lupa.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            cursor: pointer;
+        }
+
+        #Kids {
+            margin-left: 20px;
+            background-color: rgba(0, 0, 0, 0);
+            border: none;
+            font-family: Helvetica;
+            font-weight: bold;
+            font-size: 12px;
+            cursor: pointer;
+            transition: transform .4s;
+        }
+
+
+        #Kids:hover{
+            transform: scale(1.1);
+        }
+
+        #Bell{
+            width: 25px;
+            height: 25px;
+            background-color: rgba(0, 0, 0, 0);
+            border: none;
+            background-image: url('../assets/img/campana.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            cursor: pointer;
+            margin-left: 20px;
+        }
+
+        #Profile{
+            width: 35px;
+            height: 35px;
+            background-color: rgba(0, 0, 0, 0);
+            border: none;
+            background-image: url('../assets/img/Lucibb.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            cursor: pointer;
+            border-radius: 5px;
+            padding: 5px  ;
+            margin-left: 20px;
+        }
+
+        .Arrow-imagearrow-open{
+            width: 25px;
+            height: 25px;
+            background-color: rgba(0, 0, 0, 0);
+            border: none;
+            background-image: url('../assets/img/arrow.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            cursor: pointer;
+            margin-left: 10px;
+            margin-right: 40px;
+        }
+
+
+        .options {
+            flex-direction: column;
+            position: absolute;
+            left: 0;
+            background-color: black;
+            padding: 5px;
+            list-style: none;
+        }
+
+        .options li {
+            padding: 5px;
+        }
+
+        li:hover {
+            cursor: pointer;
+            background-color: #5a5959ab;
+        }
+
+    }
+
+}
+
